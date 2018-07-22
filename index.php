@@ -3,8 +3,8 @@ session_start();
 require 'autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-define('CONSUMER_KEY', 'ta4iDC8at7SaXxSyvHH4e1aok'); // add your app consumer key between single quotes
-define('CONSUMER_SECRET', 'ACZTXH22tOz0dWwwe2mzdYj4DdjzGVsJtdtkR4d37q8Mw4Sg0s'); // add your app consumer secret key between single quotes
+define('CONSUMER_KEY', 'write key here'); // add your app consumer key between single quotes
+define('CONSUMER_SECRET', 'write consumer secret key here'); // add your app consumer secret key between single quotes
 define('OAUTH_CALLBACK', 'https://banausic-outfits.000webhostapp.com/callback.php'); // your app callback URL
 
 if (!isset($_SESSION['access_token'])) {
@@ -43,7 +43,7 @@ if (!isset($_SESSION['access_token'])) {
 // **********************************************
 
 // Replace the accessKey string value with your valid access key.
-$accessKey = '0a6de441a4eb45759614d2446c1f12bb';
+$accessKey = 'write access key here';
 
 // Replace or verify the region.
 
